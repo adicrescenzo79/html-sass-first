@@ -1,10 +1,21 @@
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+$text-color: pink;
+
+.container{
+  padding-top: 50px;
+}
+
+.text{
+  width: 500px;
 }
 
 h1{
-  color: #000;
+  color: $text-color;
+}
+
+p{
+  color: $text-color;
+}
+
+button{
+  color: $text-color;
 }
